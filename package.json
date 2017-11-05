@@ -1,0 +1,29 @@
+{
+  "name": "constructor_hangman",
+  "version": "1.0.0",
+  "description": "constructor hangman in node.js",
+  "main": "constructorHangman.js",
+  "scripts": {
+    "test": "chang test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twoodou/constructor_hangman.git"
+  },
+  "keywords": [
+    "constructor",
+    "hangman",
+    "node",
+    "nodejs",
+    "node.js"
+  ],
+  "author": "Thomas Wood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twoodou/constructor_hangman/issues"
+  },
+  "homepage": "https://github.com/twoodou/constructor_hangman#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0"
+  }
+}
