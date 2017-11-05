@@ -8,7 +8,8 @@ console.log("Good luck!");
 
 // global vars
 var wordBank = ["budweiser", "pale ale", "octoberfest", "hard cider", "stout", "lager",
-"pilsner", "sour", "porter", "saison", "amber"];
+  "pilsner", "sour", "porter", "saison", "amber"
+];
 var wins = 0;
 var currentWord;
 var guessesRemaining = 10;
@@ -18,8 +19,9 @@ function reset() {
 }
 
 function startGame() {
-  currentWord = wordBank[Math.floor(Math.random()* wordBank.length)];
-console.log(currentWord);
+  currentWord = wordBank[Math.floor(Math.random() * wordBank.length)];
+  // console.log(currentWord);
+
 }
 
 startGame();
